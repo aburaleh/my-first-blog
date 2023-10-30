@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #00a5e1;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #ffcd00;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Sonic Hedgehog', sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+    color: #0071c3;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Article styles */
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-family: 'Sonic Hedgehog', sans-serif;
+    font-size: 1.8em;
+    color: #ffcd00;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+article a {
+    color: #0071c3;
+    text-decoration: none;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #ffcd00;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #0071c3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* About, Contact, and Footer styles (you can add more styling here) */
+section {
+    padding: 20px;
+}
+
+/* Customize and extend this CSS to match your Sonic the Hedgehog theme */
