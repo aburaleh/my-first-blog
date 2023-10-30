@@ -11,6 +11,14 @@
         <h1>Welcome to My Web Development Blog</h1>
         <p>Exploring the World of Web Development with Abdikarim Buraleh</p>
     </header>
+
+    {% for post in posts %}
+    <article>
+        <time>Published: {{ post.published_date }}</time>
+        <h2><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </article>
+    {% endfor %}
     
     <nav>
         <ul>
